@@ -1,0 +1,22 @@
+{
+    "name": "kstupak/iso4217",
+    "description": "A simple enum listing all currencies defined by an ISO4217 and their symbols",
+    "keywords": ["currency", "standard", "ISO4217", "currency codes"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kostiantyn Stupak",
+            "email": "kostiantyn.stupak@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ISO4217\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    }
+}
