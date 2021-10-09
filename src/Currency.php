@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ISO4127;
+namespace ISO4217;
 
 enum Currency: string
 {
