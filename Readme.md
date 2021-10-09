@@ -1,7 +1,7 @@
-# [ISO4127](https://en.wikipedia.org/wiki/ISO_4217) Currencies
+# [ISO4217](https://en.wikipedia.org/wiki/ISO_4217) Currencies
 
-This library is a very simple enum containing all currencies listed in the ISO4127.
-Enum includes methods to get the name of the currency (in en_US), ISO4127 numerical code and a symbol. Please note, that symbols are not regulated by any standard and are taken from [here](https://en.wikipedia.org/wiki/Currency_symbol) 
+This library is a very simple enum containing all currencies listed in the ISO4217.
+Enum includes methods to get the name of the currency (in en_US), ISO4217 numerical code and a symbol. Please note, that symbols are not regulated by any standard and are taken from [here](https://en.wikipedia.org/wiki/Currency_symbol) 
 
 ### Examples
 ```php
