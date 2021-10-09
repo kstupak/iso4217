@@ -5,7 +5,7 @@ Enum includes methods to get the name of the currency (in en_US), ISO4217 numeri
 
 ### Examples
 ```php
-use ISO4127\Currency;
+use ISO4217\Currency;
 
 echo Currency::EUR; //output: EUR
 echo Currency::EUR->getName(); //output: Euro
