@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace ISO4127;
+
 enum Currency: string
 {
     case AED = 'AED';

@@ -27,3 +27,6 @@ echo Currency::fromISO4127Code(8)->getName(); // output: Albanian Lek
 echo Currency::fromISO4127Code('008')->value; // output: ALL
 echo Currency::fromISO4127Code('008')->getName(); // output: Albanian Lek
 ```
+
+You should not rely on the provided `format` function, it is there for quick and dirty work.
+Use proper formatting techniques that respect your locale settings.
