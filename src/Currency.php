@@ -920,7 +920,7 @@ enum Currency: string
         };
     }
 
-    public function format(float $value, ?int $decimals) : string
+    public function format(float $value, ?int $decimals = null) : string
     {
         return ltrim(sprintf('%s %s', self::getSymbol(), number_format($value, $decimals ?? self::getDecimalPlaces())));
     }
